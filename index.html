@@ -20,7 +20,6 @@
     <nav class="top-menu">
       <img class="top-menu__logo" src="img/logoITC.png" alt="logoITC" />
     </nav>
-    <!-- YS: Don't add eventlisteners in your HTML, its bad practice - only in your JS -->
 
     <nav class="top-submenu">
       <select
@@ -33,7 +32,6 @@
         <option value="Disapproved">Disapproved</option>
         <option value="In Process">In Process</option>
       </select>
-      <!-- YS: Don't add eventlisteners in your HTML, its bad practice - only in your JS -->
 
       <select
         class="top-submenu-filter__status"
@@ -45,7 +43,6 @@
         <option value="Data Science">Data Science</option>
         <option value="Full Stack Developer">Full Stack Developer</option>
       </select>
-      <!-- YS: Don't add eventlisteners in your HTML, its bad practice - only in your JS -->
       <form onkeyup="handleSearch(event)">  
         <input
           class="form__search"
@@ -55,7 +52,6 @@
           placeholder="Search by name"
         />
       </form>
-      <!-- YS: Don't add eventlisteners in your HTML, its bad practice - only in your JS -->
 
       <button class="top-submenu-button" id="buttonUpload">
         Upload a new student
@@ -167,9 +163,9 @@
       <tbody class="table"></tbody>
     </table>
 
-    <script src="dist/studentsCreated.js"></script>
-    <script src="dist/script.js"></script>
-    <script src="dist/helpersModal.js"></script>
-    <script src="dist/helperDownload.js"></script>
+    <script src="studentsCreated.js"></script>
+    <script src="script.js"></script>
+    <script src="helpersModal.js"></script>
+    <script src="helperDownload.js"></script>
   </body>
 </html>

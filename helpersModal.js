@@ -1,6 +1,3 @@
-/*YS: This way of adding event listeners using object oriented is not the convention
-      and would not usually work since event listeners should not be in the HTML.
- */
 // Get the modal
 var modalUpload = document.getElementById("modalUpload");
 var modalEdit = document.getElementById("modalEdit");
